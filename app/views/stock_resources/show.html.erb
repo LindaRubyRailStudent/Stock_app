@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<p>The price of <%=@stock_resource[:symbol]%> stock is: $<%=@stock_resource[:price]%> </p>
+<p>The volume of <%=@stock_resource[:symbol]%> is:<%=@stock_resource[:volume]%> </p>
+<p>The change of <%=@stock_resource[:symbol]%> is: <%=@stock_resource[:change]%> </p>
+
+<%= link_to 'Back', stock_resources_path %>

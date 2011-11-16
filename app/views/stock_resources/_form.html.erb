@@ -1,0 +1,7 @@
+<%= form_tag( stock_resources_path, :method => 'post') do %>
+    <%= label_tag(:name, "Enter Stock Symbol") %>
+    <%= text_field(:stock_resource, :stock) %> </br>
+    <%= label_tag(:name, "Enter your phone number") %>
+    <%= text_field(:stock_resource, :phone) %>
+    <%= submit_tag ("Search") %>
+<% end %>

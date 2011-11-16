@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  symbol: MyString
+  price: MyString
+  change: MyString
+  volume: MyString
+
+two:
+  symbol: MyString
+  price: MyString
+  change: MyString
+  volume: MyString
